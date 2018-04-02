@@ -1,0 +1,140 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  //    @import '../mobile';
+&.hosting .packages, &.virtual_servers .packages {
+  height: 100%;
+  padding-bottom: 60px;
+}
+  img {
+    max-width: 100%;
+  }
+  main,
+  header,
+  footer {
+    overflow-x: hidden;
+  }
+  .head-item h1 {
+    font-size: 2rem;
+  }
+  .phone {
+    font-size: 12px;
+  }
+  .enter-btn {
+    float: right;
+  }
+  .order-btn {
+    padding: 15px 10px 13px;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    &.free {
+      margin-left: 0;
+    }
+  }
+  .head_menu {
+    margin-top: 0;
+  }
+  .support {
+    font-size: 10px;
+  }
+  .head {
+    min-height: inherit;
+  }
+  .head_menu-list li {
+    max-width: 20%;
+  }
+  .head_menu-list li:last-child {
+    min-width: 9rem;
+  }
+  .packages-tab .link li {
+    min-width: 150px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .table-sever  {
+    th {
+      font-size: 0.9rem;
+      padding: 6px;
+    }
+    td {
+      font-size: 12px;
+    }
+  }
+  .services .item  {
+    text-align: center;
+    max-width: 250px;
+  }
+  .technologies-title {
+    line-height: 1;
+  }
+  .logos-list li {
+    margin: 10px;
+  }
+  .guarantees-item {
+    max-width: 240px;
+  }
+  .guarantees-item p {
+    margin: 0;
+    color: #16386e;
+    font-family: "Houschka Rounded Alt - Regular 4";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 1.02px;
+  }
+  .exhortation-item {
+    max-width: 240px;
+    h4 {
+      font-size: 11px;
+    }
+  }
+  .footer-contacts li a.phone {
+    font-size: 14px;
+  }
+    .packages_info {
+    margin-top: 0;
+    padding-top: 100px;
+  }
+  .packages_info-list li {
+    &:after,
+    &:before {
+      display: none;
+    }
+  }
+    .characteristics-tab .characteristics-link li {
+    padding: 10px;
+    float: none;
+    font-size: 14px;
+  }
+  .burning-title {
+    line-height: 1;
+  }
+  .additional-list li {
+    min-height: 70px;
+  }
+    .additional-list li p,  .additional-list li span {
+    font-size: 14px;
+  }
+  .domain {
+    .order-btn.white {
+      display: block;
+      margin: 30px auto 0;
+      max-width: 200px;
+    }
+  }
+  .head-search {
+    margin-bottom: 150px;
+  }
+  h2 {
+    line-height: 1 !important;
+  }
+  .head-item h1 {
+    font-size: 1.8rem;
+    br {
+      display: none;
+    }
+  }
+  .head-item {
+    margin-bottom: 30px;
+  }
+}

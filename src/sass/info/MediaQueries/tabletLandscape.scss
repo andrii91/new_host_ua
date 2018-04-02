@@ -1,0 +1,24 @@
+@import '../../mq';
+
+@media #{$tabletLandscape} {
+  @import '../desktop';
+  .head_menu-list {
+    text-align: center;
+  }
+  .head_menu-list li a {
+    min-height: 130px;
+  }
+  .additional-list li p,
+  .additional-list li span {
+    font-size: 17px;
+  }
+
+  .domain-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    max-width: 240px;
+    display: inline-block;
+    width: 100%;
+  }
+}

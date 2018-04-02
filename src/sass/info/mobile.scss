@@ -1,0 +1,212 @@
+& {
+  img {
+    max-width: 100%;
+  }
+  main,
+  header,
+  footer {
+    overflow: hidden;
+  }
+  .head-item h1 {
+    font-size: 2rem;
+  }
+  .phone {
+    font-size: 12px;
+  }
+  .enter-btn {
+    float: right;
+  }
+  .xs-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .head-item {
+    margin-top: 0;
+  }
+  .order-btn {
+    padding: 15px 10px 13px;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    &.free {
+      margin-left: 0;
+    }
+  }
+  .xs-center {
+    text-align: center;
+  }
+  .head_menu {
+    margin-top: 0;
+  }
+  .head_menu-list li {
+    max-width: 49%;
+    text-align: center;
+    width: 100%;
+    a {
+      font-size: 0.9rem;
+      line-height: 1.2;
+    }
+    &:last-child {
+      max-width: 100%;
+    }
+  }
+  .packages-title {
+    line-height: 1;
+  }
+  .data_center-tab .data_center-link li,
+  .data_center-tab .link li,
+  .tab-country .data_center-link li,
+  .tab-country .link li {
+    width: 50%;
+    min-width: inherit;
+    float: left;
+  }
+  .data_center-tab .data_center-link,
+  .data_center-tab .link,
+  .tab-country .data_center-link,
+  .tab-country .link {
+    width: 100%;
+  }
+  .packages-item.micro {
+    margin: 0;
+  }
+  .packages-item:last-child {
+    border: 0;
+  }
+  .cms-list {
+    text-align: center;
+  }
+  #server {
+    .item.active {
+      display: block;
+      overflow-x: scroll;
+    }
+  }
+  .services .item {
+    box-shadow: 0 10px 13px rgba(127, 167, 227, .1);
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 235px;
+    padding: 35px 15px;
+    text-align: center;
+    transition: .2s;
+    margin: 0 auto 10px;
+  }
+  .technologies {
+    background-size: cover;
+  }
+  .technologies-title,
+  .cause-title {
+    line-height: 1;
+  }
+  .technologies-item p {
+    margin-bottom: 20px;
+  }
+  .logos-list li {
+    display: inline-block;
+    margin: 10px;
+  }
+  .guarantees-hgroup p,
+  .data_center-title,
+  .exhortation-title,
+  .services_v2-title,
+  .news-title {
+    line-height: 1;
+  }
+  .guarantees-item {
+    margin-bottom: 20px;
+  }
+  .exhortation-item {
+    margin-bottom: 70px;
+  }
+  .exhortation-box {
+    margin-bottom: 0;
+  }
+  .exhortation-bottom .order-btn {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .packages_info {
+    margin-top: 0;
+    padding-top: 100px;
+  }
+
+  .packages_info-list li {
+    &:after,
+    &:before {
+      display: none;
+    }
+  }
+  .packages_info-title,
+  .characteristics-title {
+    line-height: 1;
+  }
+  .characteristics-tab {
+    text-align: center;
+  }
+  .characteristics-tab .characteristics-link li {
+    padding: 10px;
+    float: none;
+    font-size: 14px;
+  }
+  .characteristics-tab .characteristics-item .basic p {
+    color: #34495e;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: .6px;
+    margin: 0;
+    display: inline-block;
+  }
+  .characteristics-item .row {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    
+  }
+  .characteristics-tab .characteristics-item .basic .line {
+    display: none;
+  }
+  .server_info-item h2 {
+    line-height: 1;
+  }
+  .burning-title {
+    font-size: 30px;
+  }
+  .additional-list li p,  .additional-list li span {
+    font-size: 12px;
+  }
+  .vps-title {
+    margin-bottom: 0;
+    line-height: 1;
+  }
+  .vps-item h5 {
+    br {
+      display: none;
+    }
+  }
+  .additional-title {
+    font-size: 32px;
+  }
+  .head-search h1, .domain-title, .domain_name-title {
+    line-height: 1;
+    font-size: 30px;
+  }
+  .head-search .search select, .head-search .search button {
+    width: 100%;
+  }
+  .head-search {
+    margin-bottom: 60px;
+  }
+  h2 {
+    line-height: 1 !important;
+  }
+  .vpn_block-item {
+    margin-top: 30px;
+  }
+}
+
+&.hosting .packages, &.virtual_servers .packages {
+  height: 100%;
+  padding-bottom: 60px;
+}
